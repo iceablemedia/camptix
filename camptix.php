@@ -7867,6 +7867,7 @@ class CampTix_Plugin {
 			'shortcodes'     => $this->get_default_addon_path( 'shortcodes.php' ),
 			'payment-paypal' => $this->get_default_addon_path( 'payment-paypal.php' ),
 			'logging-meta'   => $this->get_default_addon_path( 'logging-meta.php' ),
+			'invoices'       => $this->get_default_addon_path( 'invoices/invoices.php' ),
 		);
 
 		if ( is_plugin_active( 'camptix-stripe/camptix-stripe-gateway.php' ) ) {
